@@ -10,7 +10,6 @@ build:
     GIT_COMMIT_SHA: "${CI_COMMIT_SHA}"
     GIT_COMMIT_SHA_SHORT: "${CI_COMMIT_SHORT_SHA}"
   script:
-  - env
   - hugo -d public_generated
   artifacts:
     paths:
