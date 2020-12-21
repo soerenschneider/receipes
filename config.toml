@@ -1,0 +1,25 @@
+baseURL = "https://yummy.soerenschneider.com"
+title = "Yummy Collection"
+theme = "cactus"
+copyright = "Sören Schneider"
+paginate = 50
+
+languageCode = "en-us"
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+[markup.highlight]
+  codeFences = false
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+[params]
+  colortheme = "dark"
+  description = "All the things I like to eat and try not to forget about"
+  mainSection = "receipes"
+  postsOnHomePage = 50
+  showAllPostsOnHomePage = true
+  rss = true
+  tagsOverview = true
